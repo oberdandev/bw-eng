@@ -1,0 +1,11 @@
+@import url('../style/primitive.css');
+@import url('../style/reset.css');
+@import url('../style/fonts.css');
+@import url('../style/style.css');
+@import url('../style/navbar.css');
+
+
+:root {
+    --background: #e5e5e5;
+    --font-primary: 'Poppins';
+}
