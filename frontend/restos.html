@@ -1,0 +1,47 @@
+<div class="wrapper">
+    <form>
+        <label for="name">Nome</label>
+        <input class="input-padrao" type="text" name="name" id="name" placeholder="Nome:" required>
+        <input class="input-padrao" type="email" name="email" id="email" placeholder="Email:" required>
+        <label for="choose">Selecione seu objetivo</label>
+        <select class="input-padrao" id="choose">
+            <option disabled selected>Please select</option>
+            <option value="option-1">Orçamento</option>
+            <option value="option-2">Instalar Placa Solar</option>
+        </select>
+        <label for="comments">Additional Comments</label>
+        <textarea class="input-padrao" id="comments"></textarea>
+        <label>
+            <input type="checkbox">
+            Remember me
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+<div class="login wrapper">
+
+    
+    <img src="./src/images/homem.svg" class="image-responsive" widht='300px' height='300px'alt="">
+    <form class="formsLogin">
+
+        <label class="labelPadrao">Endereço de email</label>
+        <input class="inputPadraoEmail input-padrao" type="email" required placeholder="@mail.com">
+
+        <label class="labelPadrao" class="labelPadrao">Senha</label>
+        <input class="inputPadraoSenha input-padrao" type="password" required placeholder="senha">
+
+    </form>
+
+    <div class="checkBoxLink">
+        <fieldset class="loginCheckBox">
+            <input class="checkbox" type="checkbox" id="Lembrar minha senha" name="Lembrar minha senha" checked>
+            <label class="labelCheckBox" for="Lembrar minha senha">Lembrar minha senha</label>
+        </fieldset>
+
+        <div>
+            <a class="esqueceuSenha" href="#">Esqueceu a senha?</a>
+        </div>
+    </div>
+

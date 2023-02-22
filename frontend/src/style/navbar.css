@@ -4,9 +4,6 @@
     justify-content: space-around;
     padding: .2em 0em 0em 0em;
     background-color:#fff;
-    box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.48);
-    -webkit-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.48);
-    -moz-box-shadow: -2px 4px 5px 0px rgba(0,0,0,0.48);
 }
 
 * a:active{
@@ -25,19 +22,19 @@
 
 .itemList-link {
     text-decoration: none;
-    color: black;
+    color: var(--navbar-text-color);
     transition: all .5s ease-out;
 }
 
 .itemList-link:hover {
     cursor: pointer;
     text-decoration: none;
-    color: #FFCC00;
+    color: var(--navbar-color-hover)
 }
 
 .itemList-link:active {
     text-decoration: none;
-    color: #EDD456;
+    color: var(--navbar-color-active)
 }
 
 .logo-bw {
@@ -59,9 +56,12 @@
 }
 
 .active-nav {
-    display: flex;
-    position: relative;
+    display: absolute;
     height: 4px;
     background-color: #385ae0;
     border-radius: 1rem;
+}
+
+.background-white {
+    background-color: var(--navbar-color-white)
 }
