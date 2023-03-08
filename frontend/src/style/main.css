@@ -18,3 +18,7 @@
 .main-bg {
     background: var(--background)
 }
+
+.faq-sec {
+    padding: 3em 2em;
+}
