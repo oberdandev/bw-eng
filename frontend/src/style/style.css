@@ -8,3 +8,6 @@ body {
     margin-bottom: 100px;
 }
 
+.text-header-shadow{
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 47%);
+}
