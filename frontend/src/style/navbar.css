@@ -1,3 +1,8 @@
+body nav {
+    position: fixed;
+    width: 100%;
+}
+
 .navbar-wrapper {
     display: flex;
     align-items: center;
